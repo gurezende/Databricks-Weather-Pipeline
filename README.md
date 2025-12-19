@@ -2,6 +2,8 @@
 This project demonstrates a complete Extract, Transform, Load (ETL) workflow within Databricks.<br>
 It integrates the [OpenWeatherMap API](https://openweathermap.org/) for data retrieval and the OpenAI GPT-4o-mini model to provide personalized, weather-based dressing suggestions.
 
+![](img/Databricks_Pipeline.png)
+
 ## Project Overview
 
 The notebook implements a full ETL (Extract, Transform, Load) cycle:
