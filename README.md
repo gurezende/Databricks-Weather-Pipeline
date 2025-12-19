@@ -60,7 +60,7 @@ The following Databricks Secrets/Widgets must be configured:
 
 1. Import the Notebook: Upload the .ipynb file to your Databricks workspace.
 2. Configure Widgets: Ensure the API keys are provided in the notebook widgets.
-3. Run the Pipeline: (Automatically scheduled via *Jobs & Pipelines* in Databricks every 30 minutes)
+3. Run the Pipeline: (Automatically scheduled via *Jobs & Pipelines* in Databricks every 1 hour)
 * The first cells install dependencies and initialize the Weather class.
 * The Extract section fetches data for New York City.
 * The Transform section processes the data and calls OpenAI.
