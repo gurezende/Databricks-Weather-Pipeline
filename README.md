@@ -73,6 +73,8 @@ The final output is a structured table containing:
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
 | 5128581 | 2025-12-19 ... | Clouds | 48.02 | 43.57 | 49.95 | New York | Dress in layers... |
 
+## Dashboard
+
 ![](img/Databricks_dshbd.png)
 
 
