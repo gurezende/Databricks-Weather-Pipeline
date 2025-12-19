@@ -10,6 +10,8 @@ The notebook implements a full ETL (Extract, Transform, Load) cycle:
 * **Extract**: Fetches current weather data for New York City via the OpenWeatherMap API.
 * **Transform**: Converts UTC timestamps to New York local time and utilizes OpenAI's GPT-4o-mini to generate personalized dressing suggestions based on the temperature.
 * **Load**: Persists the data into the Databricks Unity Catalog as both raw JSON files and a structured Delta table.
+* **Orchestration**: The notebook with this ETL code is added to a job and scheduled to run every 1 hour in Databricks.
+* **Analytics**: The silver layer feeds a Databricks Dashboard that displays relevant weather information alongside the LLM's suggestions.
 
 ## Technical Stack
 
