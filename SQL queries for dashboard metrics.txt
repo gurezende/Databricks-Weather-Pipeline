@@ -1,0 +1,45 @@
+-- Get the latest city name fetched
+SELECT city
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
+
+-- Get the latest max temp fetched
+SELECT tmax
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
+
+-- Get the latest min temp fetched
+SELECT tmin
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
+
+-- Get the latest max temp fetched
+SELECT weather
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
+
+-- Get the latest max temp fetched
+SELECT temp
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
+
+-- Get the latest max temp fetched
+SELECT timestamp
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
+
+-- Get all the temperatures and timestamp fetched
+SELECT timestamp, temp
+FROM pipeline_weather.silver.weather
+
+-- Get the latest city name fetched
+SELECT suggestion
+FROM pipeline_weather.silver.weather
+ORDER BY timestamp DESC
+LIMIT 1
