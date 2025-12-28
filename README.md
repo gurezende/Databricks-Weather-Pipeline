@@ -6,7 +6,7 @@ It integrates the [OpenWeatherMap API](https://openweathermap.org/) for data ret
 
 ## Detailed Project Expalantion
 
-In this article on Towards Data Science, you can check the full priject explanation. 
+In this article on Towards Data Science, you can check the full project explanation. <br>
 [How to Build an AI-Powered Weather ETL Pipeline with Databricks and GPT-4o: From API To Dashboard](https://towardsdatascience.com/how-to-build-an-ai-powered-weather-etl-pipeline-with-databricks-and-gpt-4o-from-api-to-dashboard/)
 
 ## Project Overview
